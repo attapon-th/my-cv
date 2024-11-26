@@ -1,0 +1,222 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: อรรถพล ธนะวงศ์
+  tagline: นักวิชาการคอมพิวเตอร์ปฏิบัติการ
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Sidebar links
+  email: attapon.4work@gmail.com
+  phone: 0xx xxx xxxx
+  timezone:
+  citizenship:
+  website: #do not add http://
+  linkedin:
+  xing:
+  github: attapon-th
+  telegram: # add your nickname without '@' sign
+  gitlab: attapon-th
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: # http://www.africau.edu/images/default/sample.pdf
+
+  languages:
+    title: ภาษา
+    info:
+      - idiom: ภาษาไทย
+        level: Native
+
+      - idiom: English
+        level: Beginner
+
+  interests:
+    title: งานอดิเรก
+    info:
+      - item: Open Source
+        link:
+
+      - item: Data Analysis
+        link:
+
+      - item: Machine Learning
+        link:
+
+career-profile:
+  title: ประวัติส่วนบุคคล
+  summary: |
+    ชื่อ: `นายอรรพล ธนะวงศ์`
+
+    Name: `Mr. Attapon Thanaworg`
+
+    ชื่อเล่น: `เสริม`
+
+    อายุ: `31 ปี`
+
+    สถานะ: `โสด`
+
+    ภูมิลำเนา `บ้านป่ารวก ต.ศรีดอนไชย อ.เทิง จ.เชียงราย`
+
+education:
+  title: การศึกษา
+  info:
+    - degree: วิศวกรรมศาสตร์บัณฑิต สาขาวิศวกรรมคอมพิวเตอร์
+      university: มหาวิทยาลัยพะเยา
+      time: 2553 - 2557
+      details: |
+        จบวิศวกรรมศาสตร์บัณฑิ สาขาวิชาวิศวกรรมคอมพิวเตอร์ เกียรตินิยมอันดับ 2
+        คณะเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยา
+          - เข้าร่วมแข่งขันระบบสมองกลฝังตัว TESA Top Gun Rally 2013 
+          - เข้าร่วมแข่งขันการแข่งขันเขียนโปรแกรมคอมพิวเตอร์  ACM-ICPC 2013 (ระดับภูมิภาคเหนือ)
+          - เข้าร่วมแข่งขันการแข่งขันเขียนโปรแกรมคอมพิวเตอร์  ACM-ICPC 2012 (ระดับภูมิภาคเหนือ)
+    - degree: มัธยมศึกษาตอนปลาย สายวิทย์-คณิต
+      university: โรงเรียนเทิงวิทยาคม
+      time: 2550 - 2553
+      details:
+
+experiences:
+  title: ประวัติการทำงาน
+  info:
+    - role: นักวิชาการคอมพิวเตอร์ปฏิบัติการ
+      time: 2560 - ปัจจุบัน
+      company: ICT@MOPH, Nontraburi
+      details: |
+        ศูนย์สารสนเทศและเทคโนโลยี สำนักงานปลัด กระทรวงสาธารณสุข
+        - ร่วมพัฒนาระบบประมวนผล วิเคราะห์ สำหรับระบบ `newHDC`
+        - ดูแลและนำเข้าข้อมูลจาก HDC on Cloud สู่ Vertica Database
+        - พัฒนาการเชื่อมต่อข้อมูลระหว่างหน่วยงานต่าง ๆ ด้วย API(Rest API)
+        - พัฒนาเครื่องมือหรือตัวช่วยสำหรับใช้ในการทำงาน
+        - รวมพัฒนา รวบรวม วิเคราะห์ ข้อมูลที่เกี่ยวข้องกับโควิด 19
+
+        ---
+
+    - role: นักวิชาการคอมพิวเตอร์
+      time: 2559 - 2560
+      company: ONDE@DE, Bangkok
+      details: |
+        สำนักงานคณะกรรมการดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ 
+        กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม 
+          - ติดตามการดำเนินงานภายใน
+          - พัฒนาระบบจัดการศูนย์ดิจิทัลชุมชน
+
+          ---
+
+    - role: นักวิชาการคอมพิวเตอร์
+      time: 2557 - 2559
+      company: University of Phayao , Phayao
+      details: |
+        งานทะเบียนนิสิต กองบริหารงานการศึกษา มหาวิทยาลัยพะเยา
+          - ดูแลระบบลงเบียนนิสิต นักศึกษา
+          - ส่งออกข้อมูลตามความต้องการของหน่วยงานต่าง ๆ ทั้งในและนอก ตามความต้องการ
+          - ระบบประเมินการสอนของอาจารย์ (EVM)
+          - พัฒนาระบบลงทะเบียนวิทยานิพนธ์และศึกษาค้นคว้าอิสระ (iThesis)
+
+          ---
+
+projects:
+  title: ประสบการณ์ทำงาน
+  intro: >
+    ประสบการณ์ทำงานโดยส่วนใหญ่เกี่ยวกับการพัฒนา Program, Tool, Service ต่าง ๆ ด้วยภาษา Python, Golang, C#(.Net), PHP, Javascript, HTML, CSS, SQL, NoSQL, etc.  และมีการทำเครื่องมืออื่นมาปรับแต่งใช้งาน Keycloak(OAuth2), JupyterHUB, Traefik Revert-Proxy, SuperSet, N8N, etc. 
+
+
+  assignments:
+    - title: Processing newHDC Report Service
+      link: "#"
+      tagline: "ร่วมสำหรับประมวลผลรายงานข้อมูลใน newHDC ด้วยภาษา Python เพื่อแก้ไข ปรับปรุงประสิทธิภาพในการประมวลผลข้อมูลสำหรับในการออกรายงานต่าง ๆ"
+
+    - title: COVID-19 API Service
+      link: "#"
+      tagline: "สำหรับนำเข้า ส่งออกและรวบรวม จากหน่วยงานต่าง ๆ ในภาครัฐและเอกชน ในวิกฤตโควิด19"
+
+    - title: HDC 43File Into Vertica
+      link: "#"
+      tagline: "ระบบนำเข้าข้อมูล 43แฟ้ม จากระบบ HDC-on-Cloud สู่ฐานข้อมูล Vertica เพื่อประมวลผลข้อมูลขนาดใหญ่ด้วยความรวดเร็ว"
+
+    - title: Co-Bed
+      link: "#"
+      tagline: "ร่วมระบบจัดการและบริหารเดียงผู้ป่วยโควิด 19 สำหรับบริหารเตียงผู้ป่วยใน Impact เมืองทองธานี"
+
+    - title: MinIO Cloud Storage && Policy Management
+      link: "#"
+      tagline: "ระบบจัดเก็บข้อมูลปริมาณมาก สำหรับการแลกเปลี่ยนข้อมูล วิเคราะห์ ประมวลผลในระบบคราวด์"
+
+    - title: TUC Processing and Exchange
+      link: "#"
+      tagline: "ร่วมพัฒนาโมดูลการวิเคราะห์ข้อมูลสุขภาพและแลกเปลี่ยนข้อมูลในหน่วยบริการที่เกี่ยวข้องกับโครงการ"
+
+    - title: Uptime Monitor system
+      link: "#"
+      tagline: "ระบบติดตามและแจ้งเตืิอนสถานะบริการในเซิฟเวอร์ สำหรับตรวจสอบสถานะของบริการในเซิฟเวอร์ต่าง ๆ และแจ้งเตือนในแอพต่างๆ เช่น Line, E-Mail, Telegram เป็นต้น"
+
+# oss:
+#   title: Open Source Contributions
+#   intro: >
+#     โปรเจคที่พัฒนา ประแต่งเพื่อให้เหมาะสมกับระบบการทำงานปัจจุบัน และเผยแพร่เป็น Open Source บน Github
+
+#   contributions:
+#     - title: Treafik Setup for docker in linux server
+#       link: "https://github.com/attapon-th/traefik-setup"
+#       tagline: "ติดตั้งและตั้งค่า Treafik revert proxy สำหรับ server http(https) ด้วย Domain and IP"
+#     #
+
+#     - title: Vertica Export to CSV
+#       link: "https://github.com/attapon-th/vsql_export"
+#       tagline: "เครื่องมือสำหรับ export ข้อมูลจาก vertica database สู่ไฟล์ csv ด้วย SELECT Query (for very large data, 1M+ rows)"
+
+#     - title: Jupyter HUB on Docker Swarm
+#       link: "https://github.com/attapon-th/docker-jupyterhub-keycloak"
+#       tagline: "ติดตั้งและตั้งค่า Jupyter HUB บน Docker Swarm พร้อม Keycloak Authentication"
+
+#     - title: Keycloak docker
+#       link: #
+#       tagline: "ติดตั้งและตั้งค่า Keycloak บน Docker Swarm พร้อม Database Postgres และการเพิ่ม Themes"
+
+#     - title: DB helper
+#       link: https://attapon-th.github.io/dbhelper/
+#       tagline: "เครื่องมือสำหรับการจัดการฐานข้อมูล Dump, Backup, Restore ในระดับราย Table "
+
+skills:
+  title: ทักษะ &amp; ความเชี่ยวชาญ
+
+  toolset:
+    - name: Docker
+      level: 95%
+
+    - name: Golang
+      level: 90%
+
+    - name: Python
+      level: 90%
+
+    - name: Python & Pandas
+      level: 80%
+
+    - name: SQL Analytics
+      level: 80%
+
+    - name: MySQL,PostgreSQL
+      level: 80%
+
+    - name: Typescript & Vue
+      level: 60%
+
+    - name: C#(.Net)
+      level: 65%
+
+    - name: Word & Excel
+      level: 70%
+
+    - name: Linux Server
+      level: 70%
+
+footer: >
+  By Attapon Thanawong (2023-07)
+
